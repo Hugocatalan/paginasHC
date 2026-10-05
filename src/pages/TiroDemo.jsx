@@ -121,7 +121,7 @@ export function TiroDemo({ onBack }) {
         <div className="tactical-container tactical-nav-inner">
           <div className="tactical-brand-wrap">
             <img
-              src="/images/projects/tiro/logo.webp"
+              src="./images/projects/tiro/logo.webp"
               alt="Logo Tiro Profesional"
               className="tactical-logo-img"
               onError={(e) => {
@@ -162,7 +162,7 @@ export function TiroDemo({ onBack }) {
             {/* Badge de acreditación ANMaC con foto de Julio Mercado */}
             <div className="tactical-instructor-pill">
               <img
-                src="/images/projects/tiro/julio_mercado.webp"
+                src="./images/projects/tiro/julio_mercado.webp"
                 alt="Julio Mercado Instructor ANMaC ITB 7796"
                 className="instructor-avatar"
                 onError={(e) => {
@@ -233,7 +233,7 @@ export function TiroDemo({ onBack }) {
             <div className="tactical-visual-card">
               <div className="tactical-card-border-glow"></div>
               <img
-                src="/images/projects/tiro/julio_mercado.webp"
+                src="./images/projects/tiro/julio_mercado.webp"
                 alt="Julio Mercado Instructor ANMaC ITB 7796"
                 className="tactical-instructor-photo"
               />

@@ -97,7 +97,7 @@ export const projectsData = [
     simulatedDomain: "catalan-asociados.com",
     demoUrl: "#/proyecto/estudio-juridico",
     githubUrl: "#",
-    imagePreviewUrl: "/images/projects/estudio-juridico-preview.webp",
+    imagePreviewUrl: "./images/projects/estudio-juridico-preview.webp",
     accentColor: "#c5a059"
   },
   {
@@ -125,7 +125,7 @@ export const projectsData = [
     simulatedDomain: "innova-ingenieria.com.ar",
     demoUrl: "#/proyecto/sitio-institucional",
     githubUrl: "#",
-    imagePreviewUrl: "/images/projects/sitio-institucional-preview.webp",
+    imagePreviewUrl: "./images/projects/sitio-institucional-preview.webp",
     accentColor: "#f59e0b"
   },
   {
@@ -153,7 +153,7 @@ export const projectsData = [
     simulatedDomain: "catalanperformance.fit",
     demoUrl: "#/proyecto/landing-entrenamiento",
     githubUrl: "#",
-    imagePreviewUrl: "/images/projects/landing-entrenamiento-preview.webp",
+    imagePreviewUrl: "./images/projects/landing-entrenamiento-preview.webp",
     accentColor: "#ccff00"
   },
   {
@@ -181,7 +181,7 @@ export const projectsData = [
     simulatedDomain: "ss-servicios.com.ar",
     demoUrl: "#/proyecto/electricidad-industrial",
     githubUrl: "#",
-    imagePreviewUrl: "/images/projects/electricidad-preview.webp",
+    imagePreviewUrl: "./images/projects/electricidad-preview.webp",
     accentColor: "#00e5ff"
   },
   {
@@ -210,7 +210,7 @@ export const projectsData = [
     demoUrl: "#/proyecto/tiro-profesional",
     githubUrl: "#",
     liveUrl: "https://hugocatalan.github.io/tiro-profesional-sf/",
-    imagePreviewUrl: "/images/projects/tiro-profesional-preview.webp",
+    imagePreviewUrl: "./images/projects/tiro-profesional-preview.webp",
     accentColor: "#ff6b00"
   },
   {
@@ -238,7 +238,7 @@ export const projectsData = [
     simulatedDomain: "hugocatalan.com",
     demoUrl: "#/proyecto/hugo-catalan-coaching",
     githubUrl: "#",
-    imagePreviewUrl: "/images/projects/hugo-weightlifting-preview.webp",
+    imagePreviewUrl: "./images/projects/hugo-weightlifting-preview.webp",
     accentColor: "#f59e0b"
   }
 ];

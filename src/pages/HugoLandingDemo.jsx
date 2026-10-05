@@ -83,7 +83,7 @@ export function HugoLandingDemo({ onBack }) {
         <div className="wl-container wl-nav-inner">
           <div className="wl-brand-wrap">
             <img
-              src="/images/projects/weightlifting/logoHugo2.webp"
+              src="./images/projects/weightlifting/logoHugo2.webp"
               alt="Logo Hugo Catalán"
               className="wl-logo-img"
               onError={(e) => {
@@ -187,7 +187,7 @@ export function HugoLandingDemo({ onBack }) {
             <div className="wl-visual-card">
               <div className="wl-visual-glow"></div>
               <img
-                src="/images/projects/weightlifting/hugo-catalan-levantamiento-olimpico-snatch.webp"
+                src="./images/projects/weightlifting/hugo-catalan-levantamiento-olimpico-snatch.webp"
                 alt="Hugo Catalán en competencia de levantamiento olímpico"
                 className="wl-athlete-img"
               />
