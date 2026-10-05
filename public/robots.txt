@@ -1,0 +1,35 @@
+# ==============================================================================
+# ROBOTS.TXT - Hugo Catalan Portfolio
+# Optimizado para Motores de Búsqueda Tradicionales (SEO) y Motores Generativos (GEO)
+# ==============================================================================
+
+User-agent: *
+Allow: /
+
+# Rastreadores principales de Inteligencia Artificial (GEO / AI Search)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# Archivo de contexto optimizado para modelos de lenguaje
+# LLMs.txt: https://tu-dominio.com/llms.txt
+
+# Descomentar al tener el dominio definitivo:
+# Sitemap: https://tu-dominio.com/sitemap.xml
