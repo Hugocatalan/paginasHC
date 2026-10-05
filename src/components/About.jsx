@@ -45,9 +45,7 @@ export function About() {
             Soy <strong>{personalInfo.name}</strong>, desarrollador Full Stack de {personalInfo.locality}, {personalInfo.country}.
           </p>
           <p>
-            Estoy formado en desarrollo web y soy estudiante avanzado de la Tecnicatura Universitaria en
-            Programación de la UTN. Mi trabajo combina programación, resolución de problemas y una mirada
-            práctica sobre lo que cada proyecto necesita.
+            Estoy formado en desarrollo web y soy Técnico Universitario en Programación de la UTN. Mi trabajo combina programación, resolución de problemas y una mirada práctica sobre lo que cada proyecto necesita.
           </p>
           <p>
             Mi objetivo es desarrollar soluciones claras, profesionales y mantenibles, sin agregar
