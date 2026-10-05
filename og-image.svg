@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <!-- Fondo gradiente Dark Tech -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#05070a"/>
+      <stop offset="50%" stop-color="#080e14"/>
+      <stop offset="100%" stop-color="#05070a"/>
+    </linearGradient>
+
+    <!-- Resplandor azul -->
+    <radialGradient id="blueGlow" cx="80%" cy="20%" r="60%">
+      <stop offset="0%" stop-color="#0098ff" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Resplandor naranja -->
+    <radialGradient id="orangeGlow" cx="20%" cy="80%" r="50%">
+      <stop offset="0%" stop-color="#ff5a18" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Gradiente de texto Cyan -->
+    <linearGradient id="textCyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0098ff"/>
+      <stop offset="100%" stop-color="#22b7ff"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Fondos y luces ambientales -->
+  <rect width="1200" height="630" fill="url(#bgGrad)"/>
+  <rect width="1200" height="630" fill="url(#blueGlow)"/>
+  <rect width="1200" height="630" fill="url(#orangeGlow)"/>
+
+  <!-- Borde decorativo -->
+  <rect x="40" y="40" width="1120" height="550" rx="24" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="2"/>
+
+  <!-- Logo de marca -->
+  <g transform="translate(100, 110)">
+    <rect width="64" height="64" rx="18" fill="#0e1722" stroke="#0098ff" stroke-width="2"/>
+    <text x="32" y="40" font-family="'Space Grotesk', sans-serif" font-size="22" font-weight="700" fill="#22b7ff" text-anchor="middle">&lt;/&gt;</text>
+    <text x="80" y="44" font-family="'Space Grotesk', sans-serif" font-size="34" font-weight="800" fill="#ffffff">Hugo<tspan fill="#22b7ff">.</tspan></text>
+  </g>
+
+  <!-- Ceja de categoría -->
+  <text x="100" y="240" font-family="'Inter', sans-serif" font-size="16" font-weight="700" fill="#22b7ff" letter-spacing="4">DESARROLLO WEB PROFESIONAL</text>
+
+  <!-- Título principal -->
+  <text x="100" y="320" font-family="'Space Grotesk', sans-serif" font-size="64" font-weight="800" fill="#ffffff" letter-spacing="-1">Desarrollo web</text>
+  <text x="100" y="390" font-family="'Space Grotesk', sans-serif" font-size="64" font-weight="800" fill="none" stroke="rgba(255,255,255,0.4)" stroke-width="2" letter-spacing="-1">profesional y a medida.</text>
+
+  <!-- Descripción -->
+  <text x="100" y="460" font-family="'Inter', sans-serif" font-size="22" fill="#8995a3">Páginas web, sitios institucionales y soluciones digitales.</text>
+  <text x="100" y="495" font-family="'Inter', sans-serif" font-size="22" fill="#8995a3">Desde Santa Fe, Argentina al mundo.</text>
+
+  <!-- Badges de tecnología -->
+  <g transform="translate(100, 520)">
+    <rect width="100" height="34" rx="8" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.1)"/>
+    <text x="50" y="22" font-family="'Inter', sans-serif" font-size="14" fill="#cbd4dc" text-anchor="middle">React</text>
+
+    <rect x="115" width="100" height="34" rx="8" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.1)"/>
+    <text x="165" y="22" font-family="'Inter', sans-serif" font-size="14" fill="#cbd4dc" text-anchor="middle">Java</text>
+
+    <rect x="230" width="100" height="34" rx="8" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.1)"/>
+    <text x="280" y="22" font-family="'Inter', sans-serif" font-size="14" fill="#cbd4dc" text-anchor="middle">Python</text>
+
+    <rect x="345" width="130" height="34" rx="8" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.1)"/>
+    <text x="410" y="22" font-family="'Inter', sans-serif" font-size="14" fill="#cbd4dc" text-anchor="middle">Responsive</text>
+  </g>
+</svg>

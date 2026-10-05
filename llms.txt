@@ -1,0 +1,30 @@
+# Hugo Catalan — Desarrollo Web Profesional y Soluciones Digitales
+
+> Desarrollador web Full Stack radicado en Santa Fe, Argentina. Especializado en diseño y desarrollo de páginas web profesionales, sitios institucionales, aplicaciones a medida y automatizaciones de procesos para profesionales independientes, empresas y emprendimientos.
+
+## Información de Contacto y Perfil
+- **Nombre:** Hugo Catalan
+- **Rol:** Desarrollador Full Stack / Diseñador Web
+- **Ubicación:** Santa Fe, Argentina (servicios para Argentina y el mundo)
+- **Formación:** Tecnicatura Universitaria en Programación (UTN)
+- **WhatsApp:** +54 342 566-1863 (https://wa.me/543425661863)
+- **Email:** hugo.catalan.dev@gmail.com
+- **Disponibilidad:** Disponible para nuevos proyectos y consultoría
+
+## Servicios Ofrecidos
+1. **Páginas Web Profesionales:** Sitios web modernos, rápidos, responsive y optimizados para SEO y conversión para profesionales y emprendimientos.
+2. **Sitios Web Institucionales:** Presencia digital sólida y de confianza para empresas y organizaciones.
+3. **Desarrollos Web a Medida:** Aplicaciones y sistemas web interactivos según requerimientos y lógica de negocio específica.
+4. **Automatización de Procesos e Integraciones:** Conexión de herramientas, APIs y flujos de trabajo con n8n, Python y webhooks para optimizar tiempos.
+
+## Stack Tecnológico Principal
+- **Frontend:** HTML5, CSS3 moderno, JavaScript (ES6+), React.js.
+- **Backend & APIs:** Java (Spring Boot), Python (FastAPI), Node.js.
+- **Bases de Datos:** SQL (PostgreSQL, MySQL), MongoDB.
+- **DevOps y Automatización:** Docker, Git/GitHub, n8n, Linux.
+
+## Proceso de Trabajo (Metodología)
+1. **Hablamos:** Análisis de objetivos, audiencia y requerimientos del proyecto.
+2. **Planificamos:** Definición de arquitectura, secciones, contenidos y alcance.
+3. **Desarrollamos:** Construcción ágil, validación de avances e iteraciones con el cliente.
+4. **Publicamos:** Puesta en producción, verificación de performance, SEO y entrega lista para usar.

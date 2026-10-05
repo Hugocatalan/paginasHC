@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<!-- Documento HTML principal para la aplicación React (Vite) del Portfolio de Hugo Catalan -->
+<html lang="es-AR">
+<head>
+  <!-- Metadatos técnicos, codificación y escala responsive -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#05070a">
+  <meta name="author" content="Hugo Catalan">
+
+  <!-- Metadatos de SEO Tradicional y Posicionamiento -->
+  <title>Hugo Catalan | Desarrollo Web Profesional y a Medida en Santa Fe, Argentina</title>
+  <meta name="description" content="Desarrollo páginas web profesionales, sitios institucionales y soluciones digitales a medida para profesionales, empresas y emprendimientos. Desde Santa Fe, Argentina al mundo.">
+  <meta name="keywords" content="desarrollo web, programador web, sitios institucionales, páginas web profesionales, Santa Fe, Argentina, React, Full Stack, Hugo Catalan, diseño web responsive">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+  <meta name="googlebot" content="index, follow">
+
+  <!-- Favicon vectorial SVG con marca </ > -->
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+
+  <!-- Open Graph para compartir en redes sociales y mensajería (WhatsApp, LinkedIn, Telegram) -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Hugo Catalan — Desarrollo Web">
+  <meta property="og:title" content="Hugo Catalan | Desarrollo web profesional y a medida">
+  <meta property="og:description" content="Páginas web profesionales, sitios institucionales y automatizaciones a medida para potenciar tu presencia digital. Santa Fe, Argentina.">
+  <meta property="og:image" content="./og-image.svg">
+  <meta property="og:locale" content="es_AR">
+  <meta property="og:url" content="/">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Hugo Catalan | Desarrollo web profesional y a medida">
+  <meta name="twitter:description" content="Páginas web, sitios institucionales y soluciones digitales para profesionales, empresas y emprendimientos.">
+  <meta name="twitter:image" content="./og-image.svg">
+
+  <!-- Canonical relativo: se adapta automáticamente al dominio donde se publique el sitio -->
+  <link rel="canonical" href="./">
+
+  <!-- Enlace al archivo de contexto semántico para IAs (GEO: Generative Engine Optimization) -->
+  <link rel="alternate" type="text/markdown" title="LLM context" href="./llms.txt">
+
+  <!-- Tipografías de Google Fonts: Inter (cuerpo) y Space Grotesk (títulos e interfaz tech) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Librería de iconos Phosphor Icons -->
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+  <!-- =========================================================================
+       DATOS ESTRUCTURADOS (SCHEMA.ORG JSON-LD) PARA SEO Y MOTORES GENERATIVOS (GEO)
+       Facilita a Google, Perplexity, Gemini y ChatGPT indexar y sintetizar la entidad
+       ========================================================================= -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "#person",
+        "name": "Hugo Catalan",
+        "jobTitle": "Desarrollador Full Stack",
+        "description": "Desarrollador web especializado en páginas profesionales, sitios institucionales y soluciones digitales a medida.",
+        "nationality": "Argentina",
+        "alumniOf": {
+          "@type": "EducationalOrganization",
+          "name": "Universidad Tecnológica Nacional (UTN)"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Santa Fe",
+          "addressRegion": "Santa Fe",
+          "addressCountry": "AR"
+        },
+        "knowsAbout": [
+          "Desarrollo Web",
+          "Frontend",
+          "Backend",
+          "React",
+          "JavaScript",
+          "Java Spring Boot",
+          "Python FastAPI",
+          "Bases de Datos SQL y NoSQL",
+          "Docker",
+          "Automatización con n8n"
+        ]
+      },
+      {
+        "@type": "ProfessionalService",
+        "@id": "#business",
+        "name": "Hugo Catalan — Servicios de Desarrollo Web",
+        "description": "Servicios de diseño, desarrollo y mantenimiento de páginas web, plataformas institucionales y automatización de procesos.",
+        "provider": { "@id": "#person" },
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Santa Fe",
+          "addressRegion": "Santa Fe",
+          "addressCountry": "AR"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": -31.6333,
+          "longitude": -60.7000
+        },
+        "telephone": "+543425661863",
+        "email": "hugo.catalan.dev@gmail.com",
+        "priceRange": "$$",
+        "areaServed": [
+          { "@type": "City", "name": "Santa Fe" },
+          { "@type": "Country", "name": "Argentina" },
+          { "@type": "AdministrativeArea", "name": "Internacional" }
+        ],
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Catálogo de Servicios Digitales",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Páginas Web Profesionales",
+                "description": "Presencia digital para profesionales y emprendimientos."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Sitios Institucionales",
+                "description": "Portales web para empresas y organizaciones que transmiten solidez y confianza."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Desarrollos Web Personalizados",
+                "description": "Sistemas y aplicaciones web a medida con lógica específica de negocio."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Automatización e Integraciones",
+                "description": "Conexión de herramientas y flujos de trabajo con n8n, APIs y webhooks."
+              }
+            }
+          ]
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "¿Qué servicios de desarrollo web ofrece Hugo Catalan?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Hugo Catalan ofrece desarrollo de páginas web profesionales, sitios institucionales para empresas, sistemas web personalizados y automatización de procesos mediante APIs y herramientas como n8n."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Dónde está ubicado Hugo Catalan y realiza proyectos a distancia?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Hugo Catalan está radicado en Santa Fe, Argentina, y trabaja de forma remota tanto para clientes locales como de toda Argentina y el exterior."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Cuál es el proceso para contratar un sitio web?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "El proceso se organiza en 4 etapas claras: 1. Hablamos (análisis de necesidades y objetivos), 2. Planificamos (definición de estructura y alcance), 3. Desarrollamos (construcción con validaciones continuas) y 4. Publicamos (lanzamiento y puesta a punto)."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Cómo me pongo en contacto con Hugo Catalan?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Podes comunicarte de manera directa vía WhatsApp al +54 342 566-1863 o por correo electrónico a hugo.catalan.dev@gmail.com."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+  <script type="module" crossorigin src="./assets/index-D28aPgwk.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-BEG0RgZZ.css">
+</head>
+
+<body>
+  <!-- Contenedor raíz donde React monta la aplicación -->
+  <div id="root"></div>
+
+  <!-- Entrada principal de la aplicación React empaquetada por Vite -->
+</body>
+</html>
