@@ -23,8 +23,8 @@ export const personalInfo = {
   contactLinks: {
     // WhatsApp con mensaje comercial adaptado a VOLCA TECH
     whatsapp: "https://wa.me/543425661863?text=Hola,%20quiero%20consultar%20por%20los%20servicios%20de%20VOLCA%20TECH.",
-    email: "mailto:hugo.catalan.dev@gmail.com",
-    emailRaw: "hugo.catalan.dev@gmail.com"
+    email: "mailto:volcatecharg@gmail.com",
+    emailRaw: "volcatecharg@gmail.com"
   }
 };
 

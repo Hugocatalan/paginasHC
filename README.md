@@ -56,5 +56,5 @@ El sitio incluye **6 proyectos navegables en tiempo real** con mockups visuales 
 ## 📬 Contacto Profesional
 
 - **WhatsApp:** [+54 342 566-1863](https://wa.me/543425661863)
-- **Email:** [hugo.catalan.dev@gmail.com](mailto:hugo.catalan.dev@gmail.com)
+- **Email:** [volcatecharg@gmail.com](mailto:volcatecharg@gmail.com)
 - **Ubicación:** Santa Fe, Argentina
