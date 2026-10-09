@@ -1,5 +1,6 @@
 import React from "react";
 import { navItems, personalInfo } from "../data/portfolioData";
+import { NavIcon } from "./NavIcon";
 
 /**
  * Componente Sidebar:
@@ -129,7 +130,7 @@ export function Sidebar({
               aria-current={isActive ? "page" : undefined}
             >
               <span className="nav-icon" aria-hidden="true">
-                <i className={item.icon}></i>
+                <NavIcon name={item.id} />
               </span>
               <span className="nav-label">{item.label}</span>
               <span className="active-light"></span>
