@@ -12,6 +12,10 @@ import "./projects-demo.css";
  * @param {Function} props.onBack - Retorna al portfolio principal
  */
 export function TiroDemo({ onBack }) {
+   // Enlace de contacto para contratar el desarrollo de una web
+  const hireHugoUrl = `https://wa.me/543425661863?text=${encodeURIComponent(
+    "Hola Hugo, vi la demo de SS Servicios y me interesa una web similar para mi empresa."
+  )}`;
   // Filtro de cursos
   const [activeCourseCategory, setActiveCourseCategory] = useState("all");
 
