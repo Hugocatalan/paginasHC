@@ -25,8 +25,8 @@ export function EstudioJuridicoDemo({ onBack }) {
     "Hola, deseo agendar una consulta jurídica prioritaria con el Estudio Catalan & Asociados."
   )}`;
 
-  const hireHugoUrl = `https://wa.me/543425661863?text=${encodeURIComponent(
-    "Hola Hugo, vi la demo completa del Estudio Jurídico y quiero un sitio web profesional similar para mi profesión."
+  const hireVolcaUrl = `https://wa.me/543425661863?text=${encodeURIComponent(
+    "Hola, estuve viendo la muestra del Estudio Jurídico en VOLCA TECH y quiero consultar por un sitio web profesional similar para mi profesión."
   )}`;
 
   return (
@@ -282,18 +282,18 @@ export function EstudioJuridicoDemo({ onBack }) {
         </div>
       </section>
 
-      {/* Banner de conversión para clientes del portfolio */}
+      {/* Banner de conversión para clientes */}
       <aside className="demo-footer-banner">
         <div className="demo-footer-copy">
           <h3>¿Necesitás una web que transmita prestigio y capte clientes para tu estudio?</h3>
           <p>
-            Esta web fue diseñada por <strong>Hugo Catalan</strong> pensando en la seriedad que demanda el ámbito profesional.
+            Esta solución fue desarrollada por <strong>VOLCA TECH</strong> pensando en la seriedad y autoridad que demanda el ámbito profesional.
             Incluye formulario de agendamiento, velocidad ultra rápida y botón directo a WhatsApp.
           </p>
         </div>
         <div className="demo-footer-actions">
           <a
-            href={hireHugoUrl}
+            href={hireVolcaUrl}
             target="_blank"
             rel="noopener noreferrer"
             className="btn btn-primary"
@@ -305,14 +305,14 @@ export function EstudioJuridicoDemo({ onBack }) {
             className="btn btn-ghost"
             onClick={onBack}
           >
-            Volver al portfolio
+            Volver a VOLCA TECH
           </button>
         </div>
       </aside>
 
       {/* Footer del estudio */}
       <footer className="demo-page-footer">
-        © 2026 Catalan &amp; Asociados · Matrícula Provincial Colegiada N° 4589 · Sitio web demostrativo desarrollado por Hugo Catalan (Santa Fe, Argentina).
+        © 2026 Catalan &amp; Asociados · Matrícula Provincial Colegiada N° 4589 · Solución web demostrativa desarrollada por VOLCA TECH (Santa Fe, Argentina).
       </footer>
     </div>
   );

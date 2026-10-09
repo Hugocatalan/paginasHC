@@ -35,9 +35,9 @@ export function ProjectModal({ project, onClose, onViewDemoPage }) {
 
   if (!project) return null;
 
-  // Enlace de WhatsApp personalizado para consultar por este proyecto específico
+  // Enlace de WhatsApp comercial contextualizado para este proyecto
   const customWhatsAppUrl = `https://wa.me/543425661863?text=${encodeURIComponent(
-    `Hola Hugo, vi el proyecto "${project.title}" en tu portfolio y me gustaría consultar por algo similar.`
+    `Hola, me interesa consultar a VOLCA TECH por un desarrollo similar al proyecto "${project.title}".`
   )}`;
 
   return (

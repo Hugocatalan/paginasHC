@@ -23,9 +23,9 @@ export function TiroDemo({ onBack }) {
   // Teléfono oficial de Julio Mercado para consultas del sitio
   const clientWhatsapp = "5493424079453";
 
-  // Enlace para contratar a Hugo por una web de este estilo
-  const hireHugoUrl = `https://wa.me/543425661863?text=${encodeURIComponent(
-    "Hola Hugo, vi la web de Tiro Profesional SF de Julio Mercado y quiero una página profesional para mi academia o actividad."
+  // Enlace comercial para solicitar una solución a VOLCA TECH
+  const hireVolcaUrl = `https://wa.me/543425661863?text=${encodeURIComponent(
+    "Hola, estuve viendo el sitio de Tiro Profesional SF en VOLCA TECH y quiero una página profesional para mi actividad o academia."
   )}`;
 
   // Catálogo de Cursos y Capacitaciones
@@ -459,32 +459,32 @@ export function TiroDemo({ onBack }) {
         </div>
       </section>
 
-      {/* 7. FOOTER PROMOCIONAL DEL PORTFOLIO */}
+      {/* 7. FOOTER PROMOCIONAL */}
       <footer className="demo-footer-banner">
         <div className="demo-footer-copy">
           <h4>¿Buscás una web de alto impacto para tu actividad o academia?</h4>
           <p>
-            Desarrollo sitios webs modernos, rápidos y optimizados para Google y celulares,
-            diseñados para generar contactos reales y ventas directas por WhatsApp.
+            En <strong>VOLCA TECH</strong> desarrollamos sitios web modernos, rápidos y optimizados para dispositivos móviles,
+            diseñados para generar contactos reales y consultas directas por WhatsApp.
           </p>
         </div>
         <div className="demo-footer-actions">
           <a
-            href={hireHugoUrl}
+            href={hireVolcaUrl}
             target="_blank"
             rel="noopener noreferrer"
             className="btn-demo-contact"
           >
-            Quiero una web así para mi negocio →
+            Quiero una solución así para mi negocio →
           </a>
           <button onClick={onBack} className="btn-demo-return">
-            Volver a la lista de proyectos
+            Volver a VOLCA TECH
           </button>
         </div>
       </footer>
 
       <div className="demo-page-footer">
-        <p>Julio Mercado · Tiro Profesional SF · Demo interactiva en el Portfolio de Hugo Catalan</p>
+        <p>Julio Mercado · Tiro Profesional SF · Proyecto desarrollado por VOLCA TECH</p>
       </div>
     </div>
   );

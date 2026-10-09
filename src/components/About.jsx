@@ -41,22 +41,29 @@ export function About() {
       <div className="about-grid">
         {/* Columna Izquierda: Biografía y enfoque profesional */}
         <Reveal className="about-main">
+          {/* Logo horizontal VOLCA TECH */}
+          <img
+            src="./brand/logo-horizontal.png"
+            alt="VOLCA TECH — Desarrollo web y soluciones digitales"
+            className="about-brand-logo"
+            loading="lazy"
+            draggable="false"
+          />
           <p className="large-text">
-            Soy <strong>{personalInfo.name}</strong>, desarrollador Full Stack de {personalInfo.locality}, {personalInfo.country}.
+            Soy <strong>{personalInfo.founderName}</strong>, fundador y desarrollador Full Stack de <strong>VOLCA TECH</strong>.
           </p>
           <p>
-            Estoy formado en desarrollo web y soy Técnico Universitario en Programación de la UTN. Mi trabajo combina programación, resolución de problemas y una mirada práctica sobre lo que cada proyecto necesita.
+            Soy Técnico Universitario en Programación de la UTN. Detrás de VOLCA TECH no hay intermediarios: me encargo directamente de la planificación, el diseño y el desarrollo de cada solución tecnológica.
           </p>
           <p>
-            Mi objetivo es desarrollar soluciones claras, profesionales y mantenibles, sin agregar
-            complejidad donde no hace falta.
+            Mi compromiso es que cada profesional o empresa cuente con una presencia digital sólida, moderna y mantenible, aplicando rigor técnico y una mirada práctica sobre lo que cada negocio realmente necesita.
           </p>
         </Reveal>
 
         {/* Columna Derecha: Tarjeta de Tecnologías con resplandor tech y filtros interactivos */}
         <Reveal className="tech-card">
           <div className="card-glow" aria-hidden="true"></div>
-          <p className="tech-title">Tecnologías con las que trabajo</p>
+          <p className="tech-title">Tecnologías aplicadas en VOLCA TECH</p>
 
           {/* Pestañas de filtrado por categoría tecnológica */}
           <div className="tech-filter-tabs" role="tablist" aria-label="Filtro de tecnologías">

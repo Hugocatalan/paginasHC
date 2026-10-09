@@ -22,8 +22,8 @@ export function Services() {
         <div>
           <p className="eyebrow">SERVICIOS</p>
           <h2 id="servicios-title">
-            Lo que puedo<br />
-            <span>desarrollar para vos.</span>
+            Soluciones que desarrollamos<br />
+            <span>para tu negocio.</span>
           </h2>
         </div>
       </Reveal>

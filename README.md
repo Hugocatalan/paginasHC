@@ -1,6 +1,8 @@
-# Hugo Catalán — Portfolio & Servicios de Desarrollo Web
+# VOLCA TECH — Desarrollo Web Profesional & Soluciones Digitales
 
-Sitio web profesional y portfolio interactivo desarrollado en **React + Vite** con diseño **Dark Tech**. Enfocado en la presentación y comercialización de servicios de desarrollo web, landing pages de alta conversión, sitios institucionales para empresas y desarrollos a medida.
+Web comercial oficial de **VOLCA TECH**, desarrollada en **React + Vite** con estética **Dark Premium / Tech**. Diseñada para presentar y comercializar servicios de desarrollo web profesional, sitios institucionales para empresas, desarrollos a medida y automatizaciones de procesos.
+
+Fundador y responsable técnico: **Hugo Catalán** (Técnico Universitario en Programación, UTN).
 
 ---
 

@@ -30,10 +30,10 @@ export function Hero({ onNavigate }) {
       <Reveal className="hero-copy">
         {/* Ceja identificadora */}
         <div className="eyebrow">
-          <span></span> DESARROLLO WEB
+          <span></span> VOLCA TECH · SOLUCIONES DIGITALES
         </div>
 
-        <p className="hero-pretitle">Soluciones digitales profesionales</p>
+        <p className="hero-pretitle">Desarrollo web y tecnología a medida</p>
 
         {/* Título principal con efecto stroke en la segunda línea */}
         <h1 id="hero-title">
@@ -42,8 +42,8 @@ export function Hero({ onNavigate }) {
         </h1>
 
         <p className="hero-description">
-          Creo páginas web, sitios institucionales y soluciones digitales personalizadas para profesionales,
-          empresas y emprendimientos.
+          En VOLCA TECH creamos páginas web, sitios institucionales y soluciones digitales personalizadas para profesionales,
+          empresas y emprendimientos. Transformamos tus ideas en herramientas digitales pensadas para tu negocio.
         </p>
 
         {/* Botones de acción directos */}
@@ -72,49 +72,22 @@ export function Hero({ onNavigate }) {
         </div>
       </Reveal>
 
-      {/* Columna Derecha: Gráfica visual tech interactiva */}
+      {/* Columna Derecha: Imagen promocional oficial VOLCA TECH */}
       <Reveal delay className="hero-visual" aria-hidden="true">
         {/* Grilla de fondo sutil y órbitas circulares */}
         <div className="visual-grid"></div>
         <div className="orbit orbit-one"></div>
         <div className="orbit orbit-two"></div>
 
-        {/* Ventana de código 3D simulada */}
-        <div className="code-window">
-          <div className="window-top">
-            <div className="window-dots">
-              <i></i>
-              <i></i>
-              <i></i>
-            </div>
-            <span>web-project.js</span>
-          </div>
-
-          <div className="code-body">
-            <p>
-              <span className="purple">const</span> solution = &#123;
-            </p>
-            <p className="indent">
-              <span className="blue">type</span>: <span className="green">'web'</span>,
-            </p>
-            <p className="indent">
-              <span className="blue">for</span>: <span className="green">'your business'</span>,
-            </p>
-            <p className="indent">
-              <span className="blue">design</span>: <span className="green">'professional'</span>,
-            </p>
-            <p className="indent">
-              <span className="blue">responsive</span>: <span className="orange">true</span>,
-            </p>
-            <p className="indent">
-              <span className="blue">custom</span>: <span className="orange">true</span>
-            </p>
-            <p>&#125;;</p>
-            <p className="cursor-line">
-              <span className="purple">build</span>(solution)
-              <span className="cursor"></span>
-            </p>
-          </div>
+        {/* Imagen promocional oficial */}
+        <div className="hero-brand-frame">
+          <img
+            src="./brand/imagen-promocional.png"
+            alt="VOLCA TECH — Desarrollo web y soluciones digitales"
+            className="hero-brand-img"
+            loading="eager"
+            draggable="false"
+          />
         </div>
 
         {/* Chips flotantes con micro-animaciones */}

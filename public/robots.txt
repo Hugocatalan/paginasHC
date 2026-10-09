@@ -1,5 +1,5 @@
 # ==============================================================================
-# ROBOTS.TXT - Hugo Catalan Portfolio
+# ROBOTS.TXT - VOLCA TECH (Web Oficial)
 # Optimizado para Motores de Búsqueda Tradicionales (SEO) y Motores Generativos (GEO)
 # ==============================================================================
 

@@ -62,11 +62,17 @@ export function Sidebar({
           className="brand"
           href="#inicio"
           onClick={(e) => handleLinkClick(e, "inicio")}
-          aria-label={`${personalInfo.name}, inicio`}
+          aria-label="VOLCA TECH, inicio"
         >
-          <span className="brand-mark">&lt;/&gt;</span>
+          <img
+            src="./brand/isotipo.png"
+            alt="VOLCA TECH"
+            className="brand-logo-img"
+            width="38"
+            height="38"
+          />
           <span className="brand-name">
-            Hugo<span>.</span>
+            VOLCA <span className="brand-tech">TECH</span>
           </span>
         </a>
 
@@ -93,13 +99,18 @@ export function Sidebar({
         </button>
       </div>
 
-      {/* Mini perfil con iniciales y título profesional */}
+      {/* Identidad de marca en el sidebar */}
       <div className="profile-mini">
-        <div className="profile-avatar" aria-hidden="true">
-          {personalInfo.initials}
-        </div>
+        <img
+          src="./brand/isotipo.png"
+          alt="VOLCA TECH"
+          className="profile-avatar-img"
+          width="42"
+          height="42"
+          aria-hidden="true"
+        />
         <div className="profile-info">
-          <strong>{personalInfo.name}</strong>
+          <strong>{personalInfo.brandName}</strong>
           <span>{personalInfo.role}</span>
         </div>
       </div>

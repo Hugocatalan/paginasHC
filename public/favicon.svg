@@ -17,12 +17,12 @@
   <!-- Fondo redondeado con borde sutil -->
   <rect x="2" y="2" width="60" height="60" rx="16" fill="url(#bg)" stroke="url(#cyanGrad)" stroke-width="2"/>
 
-  <!-- Logo de código </ > con brillo -->
+  <!-- Logo de marca <V/> con brillo -->
   <text x="32" y="39" 
         font-family="'Space Grotesk', system-ui, -apple-system, sans-serif" 
-        font-size="20" 
+        font-size="17" 
         font-weight="800" 
         fill="#22b7ff" 
         text-anchor="middle" 
-        filter="url(#glow)">&lt;/&gt;</text>
+        filter="url(#glow)">&lt;V/&gt;</text>
 </svg>

@@ -29,8 +29,7 @@ export function Projects({ onSelectProject, onViewDemoPage }) {
             <span>podés ver.</span>
           </h2>
           <p className="section-intro">
-            Sitios web reales e interactivos diseñados para representar soluciones específicas para cada rubro.
-            Hacé clic en cualquier proyecto para ver el sitio web completo en funcionamiento.
+            Sitios web reales y demostraciones interactivas desarrolladas por VOLCA TECH para representar soluciones específicas para cada rubro. Hacé clic en cualquier proyecto para ver el sitio web completo en funcionamiento.
           </p>
         </div>
       </Reveal>

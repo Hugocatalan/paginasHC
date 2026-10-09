@@ -36,8 +36,8 @@ export function LandingEntrenamientoDemo({ onBack }) {
     `Hola, me interesa el coaching para mi objetivo de ${goals[selectedGoal].title}. ¿Hay cupos disponibles?`
   )}`;
 
-  const hireHugoUrl = `https://wa.me/543425661863?text=${encodeURIComponent(
-    "Hola Hugo, vi la demo de la Landing de Entrenamiento y quiero una página de ventas de alta conversión para mis servicios."
+  const hireVolcaUrl = `https://wa.me/543425661863?text=${encodeURIComponent(
+    "Hola, estuve viendo la muestra de Landing Page en VOLCA TECH y quiero una página de alta conversión para mis servicios."
   )}`;
 
   return (
@@ -308,18 +308,18 @@ export function LandingEntrenamientoDemo({ onBack }) {
         </div>
       </section>
 
-      {/* Banner de conversión para clientes del portfolio */}
+      {/* Banner de conversión para clientes */}
       <aside className="demo-footer-banner" id="iniciar">
         <div className="demo-footer-copy">
           <h3>¿Tenés un servicio o infoproducto y querés una Landing Page que venda?</h3>
           <p>
-            Esta landing de alta conversión fue desarrollada por <strong>Hugo Catalan</strong>. Estructurada con psicología de ventas,
-            testimonios visuales y botón directo a WhatsApp para convertir seguidores en clientes pagos.
+            Esta landing de alta conversión fue desarrollada por <strong>VOLCA TECH</strong>. Estructurada con psicología de ventas,
+            demostraciones visuales y llamados directos a WhatsApp para convertir visitas en clientes reales.
           </p>
         </div>
         <div className="demo-footer-actions">
           <a
-            href={hireHugoUrl}
+            href={hireVolcaUrl}
             target="_blank"
             rel="noopener noreferrer"
             className="btn btn-primary"
@@ -331,14 +331,14 @@ export function LandingEntrenamientoDemo({ onBack }) {
             className="btn btn-ghost"
             onClick={onBack}
           >
-            Volver al portfolio
+            Volver a VOLCA TECH
           </button>
         </div>
       </aside>
 
       {/* Footer deportivo */}
       <footer className="demo-page-footer">
-        © 2026 Catalan Performance · Coaching Online &amp; Presencial · Sitio web demostrativo desarrollado por Hugo Catalan (Santa Fe, Argentina).
+        © 2026 Catalan Performance · Coaching Online &amp; Presencial · Solución web demostrativa desarrollada por VOLCA TECH (Santa Fe, Argentina).
       </footer>
     </div>
   );

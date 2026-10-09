@@ -50,9 +50,9 @@ export function ElectricidadDemo({ onBack }) {
   const whatsappEstimatorMessage = `Hola SS Servicios, coticé en su web un proyecto de ${currentRate.name} para una superficie de ${surfaceM2} m² con plazo ${urgencyMultipliers[urgencyLevel].label}. Estimación orientativa: ${formattedEstimated}. ¿Podemos coordinar una visita técnica?`;
   const whatsappEstimatorUrl = `https://wa.me/543425661863?text=${encodeURIComponent(whatsappEstimatorMessage)}`;
 
-  // Enlace directo para contratar a Hugo por una web de este estilo
-  const hireHugoUrl = `https://wa.me/543425661863?text=${encodeURIComponent(
-    "Hola Hugo, vi la demo de SS Servicios (Ingeniería Eléctrica) y me interesa una web similar para mi empresa o servicios técnicos."
+  // Enlace comercial para solicitar una solución a VOLCA TECH
+  const hireVolcaUrl = `https://wa.me/543425661863?text=${encodeURIComponent(
+    "Hola, estuve viendo la muestra de SS Servicios en VOLCA TECH y me interesa una web o sistema similar para mi empresa técnica."
   )}`;
 
   // Especialidades técnicas
@@ -513,32 +513,32 @@ export function ElectricidadDemo({ onBack }) {
         </div>
       </section>
 
-      {/* 8. FOOTER PROMOCIONAL DEL PORTFOLIO */}
+      {/* 8. FOOTER PROMOCIONAL */}
       <footer className="demo-footer-banner">
         <div className="demo-footer-copy">
           <h4>¿Te gustaría una web con este nivel técnico y calculador interactivo?</h4>
           <p>
-            Desarrollo sitios profesionales a medida que no solo muestran servicios, sino que
-            automatizan cotizaciones preliminares y generan consultas calificadas por WhatsApp.
+            En <strong>VOLCA TECH</strong> desarrollamos soluciones profesionales a medida que no solo presentan servicios, sino que
+            incorporan calculadores interactivos y canales directos para captar clientes calificados.
           </p>
         </div>
         <div className="demo-footer-actions">
           <a
-            href={hireHugoUrl}
+            href={hireVolcaUrl}
             target="_blank"
             rel="noopener noreferrer"
             className="btn-demo-contact"
           >
-            Quiero una web así para mi empresa →
+            Quiero una solución así para mi empresa →
           </a>
           <button onClick={onBack} className="btn-demo-return">
-            Volver a la lista de proyectos
+            Volver a VOLCA TECH
           </button>
         </div>
       </footer>
 
       <div className="demo-page-footer">
-        <p>SS Servicios Ingeniería · Demo interactiva integrada en el Portfolio de Hugo Catalan</p>
+        <p>SS Servicios Ingeniería · Demostración técnica desarrollada por VOLCA TECH</p>
       </div>
     </div>
   );

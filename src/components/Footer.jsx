@@ -11,7 +11,15 @@ export function Footer() {
 
   return (
     <footer className="footer" role="contentinfo">
-      <span>© {currentYear} {personalInfo.name}</span>
+      <div className="footer-brand">
+        <img
+          src="./brand/logo-monocromo.png"
+          alt="VOLCA TECH"
+          className="footer-brand-logo"
+          loading="lazy"
+        />
+        <span>© {currentYear} {personalInfo.name}</span>
+      </div>
       <span>{personalInfo.role} · {personalInfo.locality}, {personalInfo.country}</span>
       <span>{personalInfo.tagline}</span>
     </footer>

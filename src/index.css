@@ -1,5 +1,5 @@
 /* ==========================================================================
-   PORTFOLIO HUGO CATALAN - ESTILOS GLOBALES
+   VOLCA TECH - ESTILOS GLOBALES
    Estética: Dark Premium / Tech Minimalist
    Optimizado para React + 100% Responsive
    ========================================================================== */
@@ -169,8 +169,23 @@ button {
   box-shadow: 0 0 20px rgba(0, 152, 255, 0.12);
 }
 
-.brand-name span {
-  color: var(--blue-bright);
+.brand-name {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  letter-spacing: -0.01em;
+}
+
+.brand-tech {
+  font-size: 0.6em;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  color: var(--blue-bright) !important;
+  background: rgba(0, 152, 255, 0.12);
+  border: 1px solid rgba(0, 152, 255, 0.32);
+  padding: 2px 6px;
+  border-radius: 5px;
+  text-transform: uppercase;
 }
 
 /* Botón hamburguesa / colapso */
@@ -211,6 +226,16 @@ button {
   transform: translateY(-5px) rotate(-45deg);
 }
 
+/* Isotipo imagen en el brand del sidebar */
+.brand-logo-img {
+  width: 38px;
+  height: 38px;
+  border-radius: 10px;
+  object-fit: contain;
+  flex-shrink: 0;
+  filter: drop-shadow(0 0 10px rgba(0, 152, 255, 0.35));
+}
+
 /* Mini perfil en el sidebar */
 .profile-mini {
   display: flex;
@@ -220,19 +245,15 @@ button {
   min-width: 0;
 }
 
-.profile-avatar {
+/* Avatar imagen del isotipo en el mini perfil */
+.profile-avatar-img {
   flex: 0 0 42px;
   width: 42px;
   height: 42px;
-  display: grid;
-  place-items: center;
   border-radius: 50%;
-  background: linear-gradient(145deg, #172431, #080b0e);
+  object-fit: cover;
   border: 1px solid rgba(0, 152, 255, 0.45);
-  color: var(--blue-bright);
-  font-size: 12px;
-  font-weight: 700;
-  box-shadow: 0 0 24px rgba(0, 152, 255, 0.12);
+  box-shadow: 0 0 24px rgba(0, 152, 255, 0.15);
 }
 
 .profile-info {
@@ -624,7 +645,38 @@ body.sidebar-collapsed .sidebar-bottom {
   border-color: rgba(255, 90, 24, 0.08);
 }
 
-/* Ventana de código simulada con perspectiva 3D */
+/* Imagen promocional oficial en el Hero */
+.hero-brand-frame {
+  width: min(100%, 500px);
+  position: relative;
+  z-index: 2;
+  border-radius: 22px;
+  overflow: hidden;
+  border: 1px solid rgba(0, 152, 255, 0.18);
+  box-shadow:
+    0 35px 100px rgba(0, 0, 0, 0.55),
+    0 0 60px rgba(0, 152, 255, 0.1),
+    inset 0 1px 0 rgba(255, 255, 255, 0.06);
+  transform: perspective(1000px) rotateY(-4deg) rotateX(2deg);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.hero-brand-frame:hover {
+  transform: perspective(1000px) rotateY(0deg) rotateX(0deg);
+  box-shadow:
+    0 40px 120px rgba(0, 0, 0, 0.6),
+    0 0 80px rgba(0, 152, 255, 0.18);
+}
+
+.hero-brand-img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  user-select: none;
+}
+
+/* Ventana de código simulada con perspectiva 3D (kept for reference) */
 .code-window {
   width: min(100%, 500px);
   position: relative;
@@ -1246,6 +1298,15 @@ body.sidebar-collapsed .sidebar-bottom {
   max-width: 700px;
 }
 
+.about-brand-logo {
+  display: block;
+  width: min(280px, 75%);
+  height: auto;
+  margin-bottom: 24px;
+  opacity: 0.95;
+  filter: drop-shadow(0 0 16px rgba(0, 152, 255, 0.25));
+}
+
 .about-main p {
   color: var(--muted);
   margin-top: 20px;
@@ -1484,6 +1545,25 @@ body.sidebar-collapsed .sidebar-bottom {
   font-size: 9px;
   letter-spacing: 0.08em;
   text-transform: uppercase;
+}
+
+.footer-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.footer-brand-logo {
+  height: 20px;
+  width: auto;
+  opacity: 0.65;
+  filter: grayscale(1) brightness(1.2);
+  transition: opacity 0.25s ease, filter 0.25s ease;
+}
+
+.footer-brand-logo:hover {
+  opacity: 1;
+  filter: grayscale(0) brightness(1);
 }
 
 /* --------------------------------------------------------------------------

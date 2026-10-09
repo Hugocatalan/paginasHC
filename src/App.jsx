@@ -35,11 +35,14 @@ const SECTION_IDS = [
 
 /**
  * Componente Principal App:
- * - Sistema de enrutamiento integrado para alternar entre el Portfolio principal y las páginas completas de cada proyecto demo.
- * - Rutas dedicadas por proyecto:
+ * - Sistema de enrutamiento integrado para alternar entre la web de VOLCA TECH y las páginas completas de cada desarrollo.
+ * - Rutas dedicadas por desarrollo:
  *   - `#/proyecto/estudio-juridico` -> Estudio Jurídico Demo
  *   - `#/proyecto/sitio-institucional` -> Sitio Institucional Empresa Demo
  *   - `#/proyecto/landing-entrenamiento` -> Landing Entrenamiento & Fitness Demo
+ *   - `#/proyecto/electricidad-industrial` -> Ingeniería Eléctrica Demo
+ *   - `#/proyecto/tiro-profesional` -> Tiro Profesional SF
+ *   - `#/proyecto/hugo-catalan-coaching` -> Hugo Catalán Coaching
  * - Sincroniza con el historial del navegador (soporta botones Atrás/Adelante y enlaces directos).
  * - Sincroniza las clases del body (`sidebar-collapsed`, `mobile-menu-open`).
  */
@@ -181,7 +184,7 @@ export function App() {
   }
 
   // =========================================================================
-  // VISTA PRINCIPAL DEL PORTFOLIO
+  // VISTA PRINCIPAL DE VOLCA TECH
   // =========================================================================
   return (
     <>

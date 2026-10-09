@@ -54,8 +54,8 @@ export function EmpresaInstitucionalDemo({ onBack }) {
     "Hola, deseo solicitar cotización técnica y pliegos de obra a INNOVA Infraestructura."
   )}`;
 
-  const hireHugoUrl = `https://wa.me/543425661863?text=${encodeURIComponent(
-    "Hola Hugo, vi la demo institucional de INNOVA y quiero una web corporativa sólida para mi empresa."
+  const hireVolcaUrl = `https://wa.me/543425661863?text=${encodeURIComponent(
+    "Hola, estuve viendo la muestra de sitio institucional en VOLCA TECH y quiero consultar por una web corporativa sólida para mi empresa."
   )}`;
 
   return (
@@ -251,18 +251,18 @@ export function EmpresaInstitucionalDemo({ onBack }) {
         </div>
       </section>
 
-      {/* Banner de conversión para clientes del portfolio */}
+      {/* Banner de conversión para clientes */}
       <aside className="demo-footer-banner">
         <div className="demo-footer-copy">
           <h3>¿Buscás una web institucional que refleje la magnitud de tu empresa?</h3>
           <p>
-            Esta demo fue construida por <strong>Hugo Catalan</strong>. Diseño sitios corporativos con alta velocidad,
-            presentación técnica de proyectos y formularios para captar presupuestos y licitaciones.
+            Esta solución fue desarrollada por <strong>VOLCA TECH</strong>. Creamos sitios corporativos con alta velocidad,
+            presentación técnica de proyectos y formularios optimizados para captar presupuestos y licitaciones.
           </p>
         </div>
         <div className="demo-footer-actions">
           <a
-            href={hireHugoUrl}
+            href={hireVolcaUrl}
             target="_blank"
             rel="noopener noreferrer"
             className="btn btn-primary"
@@ -274,14 +274,14 @@ export function EmpresaInstitucionalDemo({ onBack }) {
             className="btn btn-ghost"
             onClick={onBack}
           >
-            Volver al portfolio
+            Volver a VOLCA TECH
           </button>
         </div>
       </aside>
 
       {/* Footer corporativo */}
       <footer className="demo-page-footer">
-        © 2026 INNOVA Infraestructura S.A. · CUIT 30-71458921-9 · Sitio web demostrativo desarrollado por Hugo Catalan (Santa Fe, Argentina).
+        © 2026 INNOVA Infraestructura S.A. · CUIT 30-71458921-9 · Solución web demostrativa desarrollada por VOLCA TECH (Santa Fe, Argentina).
       </footer>
     </div>
   );

@@ -1,30 +1,30 @@
-# Hugo Catalan — Desarrollo Web Profesional y Soluciones Digitales
+# VOLCA TECH — Desarrollo Web Profesional y Soluciones Digitales
 
-> Desarrollador web Full Stack radicado en Santa Fe, Argentina. Especializado en diseño y desarrollo de páginas web profesionales, sitios institucionales, aplicaciones a medida y automatizaciones de procesos para profesionales independientes, empresas y emprendimientos.
+> En VOLCA TECH desarrollamos páginas web profesionales, sitios institucionales y soluciones digitales personalizadas para profesionales, empresas y emprendimientos. Desde Santa Fe, Argentina. Al mundo.
 
-## Información de Contacto y Perfil
-- **Nombre:** Hugo Catalan
-- **Rol:** Desarrollador Full Stack / Diseñador Web
-- **Ubicación:** Santa Fe, Argentina (servicios para Argentina y el mundo)
-- **Formación:** Técnico Universitario en Programación (UTN)
-- **WhatsApp:** +54 342 566-1863 (https://wa.me/543425661863)
+## Identidad y Responsable Técnico
+- **Marca:** VOLCA TECH
+- **Fundador & Desarrollador Full Stack:** Hugo Catalán
+- **Formación del Fundador:** Técnico Universitario en Programación (UTN)
+- **Ubicación:** Santa Fe, Argentina (servicios remotos para Argentina y el mundo)
+- **WhatsApp Oficial:** +54 342 566-1863 (https://wa.me/543425661863)
 - **Email:** hugo.catalan.dev@gmail.com
-- **Disponibilidad:** Disponible para nuevos proyectos y consultoría
+- **Disponibilidad:** Disponible para nuevos proyectos y consultoría técnica
 
-## Servicios Ofrecidos
-1. **Páginas Web Profesionales:** Sitios web modernos, rápidos, responsive y optimizados para SEO y conversión para profesionales y emprendimientos.
-2. **Sitios Web Institucionales:** Presencia digital sólida y de confianza para empresas y organizaciones.
-3. **Desarrollos Web a Medida:** Aplicaciones y sistemas web interactivos según requerimientos y lógica de negocio específica.
-4. **Automatización de Procesos e Integraciones:** Conexión de herramientas, APIs y flujos de trabajo con n8n, Python y webhooks para optimizar tiempos.
+## Soluciones y Servicios de VOLCA TECH
+1. **Páginas Web:** Presencia digital optimizada para profesionales, servicios y marcas que necesitan captar clientes con rapidez y credibilidad.
+2. **Sitios Institucionales:** Sitios corporativos que comunican solidez, catálogo de soluciones y canales de contacto comercial.
+3. **Desarrollos Personalizados:** Sistemas a medida, paneles de gestión y aplicaciones adaptadas a la lógica específica de cada negocio.
+4. **Automatización de Procesos:** Integración de flujos de trabajo, conexión de plataformas y automatización para ahorrar tiempo operativo.
 
-## Stack Tecnológico Principal
-- **Frontend:** HTML5, CSS3 moderno, JavaScript (ES6+), React.js.
+## Stack Tecnológico Aplicado
+- **Frontend:** HTML5 semántico, CSS3 moderno, JavaScript (ES6+), React.js.
 - **Backend & APIs:** Java (Spring Boot), Python (FastAPI), Node.js.
-- **Bases de Datos:** SQL (PostgreSQL, MySQL), MongoDB.
-- **DevOps y Automatización:** Docker, Git/GitHub, n8n, Linux.
+- **Bases de Datos:** SQL (PostgreSQL, MySQL), NoSQL (MongoDB).
+- **Herramientas & Entornos:** Docker, Git/GitHub, n8n, Linux.
 
-## Proceso de Trabajo (Metodología)
-1. **Hablamos:** Análisis de objetivos, audiencia y requerimientos del proyecto.
+## Metodología de Trabajo
+1. **Hablamos:** Análisis de objetivos y requerimientos comerciales del proyecto.
 2. **Planificamos:** Definición de arquitectura, secciones, contenidos y alcance.
-3. **Desarrollamos:** Construcción ágil, validación de avances e iteraciones con el cliente.
-4. **Publicamos:** Puesta en producción, verificación de performance, SEO y entrega lista para usar.
+3. **Desarrollamos:** Construcción ágil, validación de avances e iteraciones transparentes.
+4. **Publicamos:** Puesta en producción, verificación de performance, SEO y entrega lista para operar.

@@ -40,13 +40,13 @@ export function Contact() {
         {/* Información y propuesta de contacto */}
         <div>
           <p className="eyebrow">
-            <span></span> CONTACTO
+            <span></span> CONTACTO VOLCA TECH
           </p>
           <h2 id="contact-title">
             ¿Tenés un proyecto?<br />
             <span>Hablemos.</span>
           </h2>
-          <p>Contame qué necesitás y vemos juntos la mejor forma de llevarlo a la web.</p>
+          <p>Contanos qué necesitás y diseñamos la mejor solución digital para tu negocio.</p>
         </div>
 
         {/* Acciones y canales de contacto directo */}
@@ -54,9 +54,9 @@ export function Contact() {
           {/* Cartel indicador con flecha hacia abajo */}
           <div
             className="contact-methods-label"
-            aria-label="Medios disponibles para contactarme"
+            aria-label="Medios de contacto de VOLCA TECH"
           >
-            <span>Contactate por estos medios</span>
+            <span>Escribinos por estos canales</span>
             <span className="contact-methods-arrow" aria-hidden="true">
               ↓
             </span>
@@ -64,13 +64,13 @@ export function Contact() {
 
           {/* Fila horizontal de botones de contacto con logos e interactividad hover */}
           <div className="social-links" aria-label="Medios de contacto">
-            {/* WhatsApp con mensaje pre-cargado */}
+            {/* WhatsApp comercial con mensaje pre-cargado */}
             <a
               className="social-link whatsapp"
               href={contactLinks.whatsapp}
               target="_blank"
               rel="noopener noreferrer"
-              aria-label="Contactar por WhatsApp"
+              aria-label="Contactar a VOLCA TECH por WhatsApp"
               title="Abrir chat en WhatsApp"
             >
               <img
@@ -85,7 +85,7 @@ export function Contact() {
             <a
               className="social-link email"
               href={contactLinks.email}
-              aria-label="Enviar un correo a Gmail"
+              aria-label="Enviar un correo electrónico a VOLCA TECH"
               title="Escribir correo a Gmail"
             >
               <img
@@ -94,23 +94,6 @@ export function Contact() {
                 aria-hidden="true"
               />
               <span className="sr-only">Gmail</span>
-            </a>
-
-            {/* Instagram */}
-            <a
-              className="social-link instagram"
-              href={contactLinks.instagram}
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Visitar perfil de Instagram"
-              title="Visitar Instagram"
-            >
-              <img
-                src="https://cdn.simpleicons.org/instagram/E4405F"
-                alt=""
-                aria-hidden="true"
-              />
-              <span className="sr-only">Instagram</span>
             </a>
           </div>
 

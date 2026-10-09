@@ -22,9 +22,9 @@ export function HugoLandingDemo({ onBack }) {
 
   const coachWhatsapp = "5493425661863";
 
-  // Enlace para contratar a Hugo por una web de marca personal
-  const hireHugoUrl = `https://wa.me/543425661863?text=${encodeURIComponent(
-    "Hola Hugo, vi tu web personal de Levantamiento Olímpico y quiero desarrollar una landing page profesional para mi marca personal o negocio deportivo."
+  // Enlace comercial para solicitar una solución a VOLCA TECH
+  const hireVolcaUrl = `https://wa.me/543425661863?text=${encodeURIComponent(
+    "Hola, estuve viendo la landing de Levantamiento Olímpico en VOLCA TECH y quiero desarrollar una web profesional para mi marca personal o actividad."
   )}`;
 
   // Opciones del asesor interactivo
@@ -467,18 +467,18 @@ export function HugoLandingDemo({ onBack }) {
         </div>
       </section>
 
-      {/* 8. FOOTER PROMOCIONAL DEL PORTFOLIO */}
+      {/* 8. FOOTER PROMOCIONAL */}
       <footer className="demo-footer-banner">
         <div className="demo-footer-copy">
           <h4>¿Buscás una web como esta para tu marca personal o negocio deportivo?</h4>
           <p>
-            Diseño y desarrollo sitios webs modernos que comunican tu autoridad profesional,
+            En <strong>VOLCA TECH</strong> diseñamos y desarrollamos sitios web modernos que comunican tu autoridad profesional,
             muestran testimonios creíbles y convierten visitas en consultas directas por WhatsApp.
           </p>
         </div>
         <div className="demo-footer-actions">
           <a
-            href={hireHugoUrl}
+            href={hireVolcaUrl}
             target="_blank"
             rel="noopener noreferrer"
             className="btn-demo-contact"
@@ -486,13 +486,13 @@ export function HugoLandingDemo({ onBack }) {
             Quiero una web de este estilo →
           </a>
           <button onClick={onBack} className="btn-demo-return">
-            Volver a la lista de proyectos
+            Volver a VOLCA TECH
           </button>
         </div>
       </footer>
 
       <div className="demo-page-footer">
-        <p>Hugo Catalán · Entrenador de Levantamiento Olímpico · Demo interactiva en su portfolio</p>
+        <p>Hugo Catalán · Entrenador de Levantamiento Olímpico · Proyecto personal desarrollado por VOLCA TECH</p>
       </div>
     </div>
   );

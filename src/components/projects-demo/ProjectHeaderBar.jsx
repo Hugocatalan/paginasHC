@@ -15,20 +15,20 @@ import { personalInfo } from "../../data/portfolioData";
  */
 export function ProjectHeaderBar({ projectName, category, onBack }) {
   const customWhatsAppUrl = `https://wa.me/543425661863?text=${encodeURIComponent(
-    `Hola Hugo, estuve viendo la demo del proyecto "${projectName}" y me gustaría presupuesto para una web similar para mi negocio.`
+    `Hola, estuve viendo el desarrollo "${projectName}" en VOLCA TECH y me gustaría consultar por una solución similar para mi negocio.`
   )}`;
 
   return (
     <header className="project-demo-topbar">
-      {/* Botón de retorno al portfolio principal */}
+      {/* Botón de retorno a VOLCA TECH */}
       <button
         type="button"
         className="btn-back-portfolio"
         onClick={onBack}
-        aria-label="Volver al portfolio principal"
+        aria-label="Volver al inicio de VOLCA TECH"
       >
         <span className="back-arrow">←</span>
-        <span>Volver al Portfolio</span>
+        <span>Volver a VOLCA TECH</span>
       </button>
 
       {/* Identificación del proyecto actual y badge de demo */}
