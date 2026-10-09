@@ -29,7 +29,6 @@ User-agent: Applebot-Extended
 Allow: /
 
 # Archivo de contexto optimizado para modelos de lenguaje
-# LLMs.txt: https://tu-dominio.com/llms.txt
+# LLMs.txt: https://volcatech.com.ar/llms.txt
 
-# Descomentar al tener el dominio definitivo:
-# Sitemap: https://tu-dominio.com/sitemap.xml
+Sitemap: https://volcatech.com.ar/sitemap.xml
