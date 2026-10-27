@@ -965,6 +965,13 @@ body.sidebar-collapsed .sidebar-bottom {
   box-shadow: 0 24px 60px rgba(0, 0, 0, 0.65), 0 0 35px rgba(245, 158, 11, 0.25);
 }
 
+.project-preview-mockup.preview-federacion:hover {
+  border-color: rgba(54, 169, 214, 0.6);
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.65), 0 0 35px rgba(54, 169, 214, 0.3);
+}
+
+
+
 /* Barra superior de la ventana del navegador */
 .mockup-browser-chrome {
   display: flex;

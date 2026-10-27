@@ -241,8 +241,39 @@ export const projectsData = [
     githubUrl: "#",
     imagePreviewUrl: "./images/projects/hugo-weightlifting-preview.webp",
     accentColor: "#f59e0b"
+  },
+  {
+    id: "proj-7",
+    number: "07",
+    previewClass: "preview-federacion",
+    smallCategory: "FEDERACIÓN & DEPORTE OLÍMPICO",
+    previewTitle: "Potencia, técnica y tradición deportiva.",
+    previewAction: "Ver portal institucional →",
+    type: "PROYECTO INSTITUCIONAL",
+    title: "Portal institucional para federación deportiva",
+    description: "Sitio oficial de la Asociación Santafesina de Pesas con calendario oficial, récords homologados y directorio de clubes.",
+    tags: ["Institucional", "Récords IWF", "Directorio Clubes", "Torneos"],
+    detailedDescription: "Portal oficial desarrollado para la Asociación Santafesina de Levantamiento Olímpico de Pesas (ASLOP), entidad rectora del deporte en Santa Fe afiliada a la FAP. Integra un calendario de competencias provinciales y evaluativos selectivos con requisitos técnicos, tabla dinámica de récords homologados bajo normativa IWF, directorio interactivo de clubes y escuelas por departamento, centro de descarga de estatutos y resoluciones, y un asistente virtual de mesa de entradas para federar instituciones y deportistas.",
+    clientProblem: "La federación carecía de un canal digital unificado para nuclear a los clubes de los 19 departamentos provinciales, publicar el calendario oficial de torneos con actas de resultados y formalizar las solicitudes de afiliación institucional.",
+    solutionProvided: "VOLCA TECH diseñó e implementó un portal institucional solemne y moderno ('Olympic Athletic Blue'), con tablas interactivas de marcas oficiales, base de datos de clubes federados, centro de reglamentaciones descargables y un asistente de mesa de entradas con derivación directa a WhatsApp y correo oficial.",
+    keyFeatures: [
+      "Calendario anual interactivo de torneos provinciales y evaluativos con requisitos técnicos",
+      "Tabla homologada de récords provinciales por categoría de peso y rama con marcas IWF",
+      "Directorio interactivo de clubes y centros de halterofilia con filtro por departamento",
+      "Mesa de entradas digital con asistente de afiliación y solicitud de licencias deportivas",
+      "Repositorio de estatutos sociales, reglamentos IWF y fichas médicas descargables"
+    ],
+    techStack: ["React", "CSS Modular", "Directorio Interactivo", "Tablas IWF", "Responsive UI"],
+    slug: "asociacion-santafesina-pesas",
+    simulatedDomain: "aslop.org.ar",
+    demoUrl: "#/proyecto/asociacion-santafesina-pesas",
+    githubUrl: "https://hugocatalan.github.io/aslope-web/",
+    liveUrl: "https://hugocatalan.github.io/aslope-web/",
+    imagePreviewUrl: "./images/projects/aslop-preview.jpg",
+    accentColor: "#36A9D6"
   }
 ];
+
 
 // Etapas del proceso de trabajo (+ info desplegable)
 export const processSteps = [

@@ -21,6 +21,7 @@ import { LandingEntrenamientoDemo } from "./pages/LandingEntrenamientoDemo";
 import { ElectricidadDemo } from "./pages/ElectricidadDemo";
 import { TiroDemo } from "./pages/TiroDemo";
 import { HugoLandingDemo } from "./pages/HugoLandingDemo";
+import { AslopDemo } from "./pages/AslopDemo";
 
 // Identificadores de las secciones principales para el espía de scroll y navegación
 const SECTION_IDS = [
@@ -43,6 +44,7 @@ const SECTION_IDS = [
  *   - `#/proyecto/electricidad-industrial` -> Ingeniería Eléctrica Demo
  *   - `#/proyecto/tiro-profesional` -> Tiro Profesional SF
  *   - `#/proyecto/hugo-catalan-coaching` -> Hugo Catalán Coaching
+ *   - `#/proyecto/asociacion-santafesina-pesas` -> ASLOP Federación de Pesas Demo
  * - Sincroniza con el historial del navegador (soporta botones Atrás/Adelante y enlaces directos).
  * - Sincroniza las clases del body (`sidebar-collapsed`, `mobile-menu-open`).
  */
@@ -182,6 +184,11 @@ export function App() {
   if (currentRoute.startsWith("#/proyecto/hugo-catalan-coaching")) {
     return <HugoLandingDemo onBack={navigateBackToPortfolio} />;
   }
+
+  if (currentRoute.startsWith("#/proyecto/asociacion-santafesina-pesas")) {
+    return <AslopDemo onBack={navigateBackToPortfolio} />;
+  }
+
 
   // =========================================================================
   // VISTA PRINCIPAL DE VOLCA TECH
